@@ -61,7 +61,7 @@ if __name__ == '__main__':
     elif yt_id is not None and yt_url is not None:
         Common.handle_wrong_cmdargs("You gave both URL and YouTube-ID. Make up your mind.", \
                                     parser.print_usage)
-    elif yt_url is not None and not CF.is_valid_url(yt_url):
+    elif yt_url is not None and not CF.CommentFetcher.is_valid_url(yt_url):
         Common.handle_wrong_cmdargs("Invalid URL.", \
                                     parser.print_usage)
     elif append and use_the_force:
