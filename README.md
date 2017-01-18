@@ -10,6 +10,13 @@ The alternative to HTML-formatted output is a plaintext file (`-p`) containing o
 The default filename is `comments-YOUTUBE_ID.html` (or `*.txt`), which can be overridden with `-o` option.
 The script accepts both `YOUTUBE_ID` (`-y`) and URLs (`-u`) (regular, short, mobile, embedded etc).
 
+**NB! The Youtube API v2 is completely depracated and the scripts don't work anymore!** The repository will stay up for historical reasons, though.
+
+<details>
+<summary>Example how the HTML output looked like back in the day</summary>
+![example](https://cloud.githubusercontent.com/assets/6233872/22057018/9d3f7310-dd6b-11e6-81aa-7d5e705982a9.png)
+</details>
+
 ### Usage
 
 Help printout:
